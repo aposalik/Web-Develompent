@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market SALIK</title>
+    <link rel="icon" href="./title.jpeg">
+    <link rel="stylesheet" href="./market.css">
+    <script src="./market.js" defer></script>
+</head>
+<body>
+    <div class="cantainer">
+        <div class="filter_button">
+        <button data-name="all" class="active" >Show all</button>
+        <button data-name="phone" >Phone</button>
+        <button data-name="shoes" >Shoes</button>
+        <button data-name="glasses" >Glasses</button>
+        </div> 
+
+
+
+        <!-- The Modal -->
+<div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  
+    <!-- Modal Content -->
+    <div class="outsideform">
+    <form class="modal-content animate" action="/action_page.php">
+      <div class="imgcontainer">
+        <img src="./pics/Mastercard.jpg" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Card Number</b></label>
+        <input type="number" placeholder="Enter Card number" name="uname" required>
+  
+        <label for="psw"><b>Card Name</b></label>
+        <input type="text" placeholder="Enter Card Name" name="cn" required>
+
+        <label for="psw"><b>Expiration date</b></label>
+        <input type="datetime-local" placeholder="Enter Card Name" name="cn" required>
+
+        <label for="psw"><b>CVV</b></label>
+        <input type="number" placeholder="Enter CVV" name="cvv" required>
+
+
+        <span>
+        <button type="submit">Submit</button>
+        </span>
+        </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <span>
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        </span>
+      </div>
+    </form>
+</div>
+  </div>
+
+
+
+
+
+
+        <div class="filterable_cards">
+            <div class="card" data-name="phone">
+                <img src="./pics/samsung2.webp" alt="phone">
+                <div class="car_body">
+                    <h3 class="card_title">Phone</h3>
+                    <p class="card_text">Samsung A-42 ($120)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="shoes">
+                <img src="./pics/free_shoes.webp" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">Shoes</h3>
+                    <p class="card_text">Free sree shoes (0$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="glasses">
+                <img src="./pics/glasses1.avif" alt="glasses">
+                <div class="car_body">
+                    <h3 class="card_title">Glasses</h3>
+                    <p class="card_text">White daimant glass (50$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="phone">
+                <img src="./pics/iphone11.large" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">Phone</h3>
+                    <p class="card_text">Iphone 6 (80$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="phone">
+                <img src="./pics/iphone13.webp" alt="phone">
+                <div class="car_body">
+                    <h3 class="card_title">Phone</h3>
+                    <p class="card_text">iphone11 (200$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="phone">
+                <img src="./pics/iphone14.avif" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">Phone</h3>
+                    <p class="card_text">iphone13 (400$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="shoes">
+                <img src="./pics/shoes2.jpeg" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">shoes</h3>
+                    <p class="card_text">Nike red (50$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="shoes">
+                <img src="./pics/shoes_girl.webp" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">Shoes</h3>
+                    <p class="card_text"> School shoes (40$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="shoes">
+                <img src="./pics/shoes_Madri.webp" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">Shoes</h3>
+                    <p class="card_text">White Nike (30$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="phone">
+                <img src="./pics/somsung.webp" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">Phone</h3>
+                    <p class="card_text">Samsung A50 (400$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="glasses">
+                <img src="./pics/sunglasses2.webp" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">glasses</h3>
+                    <p class="card_text">Blue Glasses (250$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="glasses">
+                <img src="./pics/sunglasses3.webp" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">glasses</h3>
+                    <p class="card_text">black Glasses (200$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="glasses">
+                <img src="./pics/sunglasses4.jpg" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">Glasses</h3>
+                    <p class="card_text">Brown Glasses (199$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+            <div class="card" data-name="glasses">
+                <img src="./pics/sunglasses5.webp" alt="">
+                <div class="car_body">
+                    <h3 class="card_title">Glasses</h3>
+                    <p class="card_text">Iron man Glasses (1000$)</p>
+                    <button onclick="document.getElementById('id01').style.display='block'">BUY</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
